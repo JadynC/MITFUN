@@ -1,0 +1,17 @@
+{
+  "name": "mit-fun",
+  "version": "1.0.0",
+  "description": "MIT FUN Form Joke Program",
+  "main": "jokegen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jadyn Chowdhury",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }, 
+  "scripts":{
+    "start": "node jokegen.js"
+  }
+}

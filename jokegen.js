@@ -1,4 +1,4 @@
-package.json
+
 const button = document.querySelector('.container button');
 const jokeP = document.querySelector('.container p');
 
