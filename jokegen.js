@@ -1,4 +1,3 @@
-
 const button = document.querySelector('.container button');
 const jokeP = document.querySelector('.container p');
 
@@ -13,3 +12,7 @@ async function genJoke(){
     const jokeObj = await joke.json();
     jokeP.innerHTML = jokeObj.joke;
 }
+
+var express = require("express");
+var app = express();
+var port = process.env.PORT || 3000;
